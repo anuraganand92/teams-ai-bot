@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "resourceBaseName": {
+      "value": "hanashiaiteams"
+    },
+    "botAadAppClientId": {
+      "value": "${{BOT_ID}}"
+    },
+    "botAadAppClientSecret": {
+      "value": "${{SECRET_BOT_PASSWORD}}"
+    },
+    "azureOpenaiKey": {
+      "value": "${{SECRET_AZURE_OPENAI_API_KEY}}"
+    },
+    "azureOpenaiModelDeploymentName" : {
+      "value": "${{AZURE_OPENAI_MODEL_DEPLOYMENT_NAME}}"
+    },
+    "azureOpenaiEndpoint" : {
+      "value": "${{AZURE_OPENAI_ENDPOINT}}"
+    },
+    "azureOpenaiVersion" : {
+      "value": "${{AZURE_OPENAI_VERSION}}"
+    },
+    "azureOpenaiEmbeddingDeployment" : {
+      "value": "${{AZURE_OPENAI_EMBEDDING_DEPLOYMENT}}"
+    },
+    "azureSearchKey": {
+      "value": "${{SECRET_AZURE_SEARCH_KEY}}"
+    },
+    "azureSearchEndpoint": {
+      "value": "${{AZURE_SEARCH_ENDPOINT}}"
+    },
+    "azureSearchIndexName" : {
+      "value": "${{AZURE_AI_SEARCH_INDEX_NAME}}"
+    },
+    "azureLanguageKey": {
+      "value": "${{SECRET_LANGUAGE_KEY}}"
+    },
+    "azureLanguageEndpoint": {
+      "value": "${{LANGUAGE_ENDPOINT}}"
+    },
+    "webAppSKU": {
+      "value": "B1"
+    },
+    "botDisplayName": {
+      "value": "Hanashi-AI"
+    },
+    "linuxFxVersion": {
+      "value": "PYTHON|3.10"
+    }
+  }
+}
