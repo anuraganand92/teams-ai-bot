@@ -1,4 +1,4 @@
-# Overview of the Hanashi AI - Teams bot
+# Overview of the Teams AI bot
 
 This bot utilizes one of the most powerful applications enabled by LLM - sophisticated question-answering (Q&A) to answer questions about specific source information or uploaded files right in Microsoft Teams.
 Techniques:
